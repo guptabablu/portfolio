@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:20px;
+    padding-left:4%;
+    padding-right: 3%;
+}
+
+.logo{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s ;
+    }
+
+.logo span{
+    color: yellowgreen;
+    transition: 0.3s ;
+}
+.logo span:hover{
+    color: black;
+}
+
+
+
+
+.menu ul li{
+    display: inline-block;
+    padding: 10px 10px;
+   
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+.menu ul li a:hover{
+    color: red;
+}
+.btn{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: transform 0.3s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+.content form{
+    top: 50%;
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 20px 0 0px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+h1 span{
+    color: red;
+}
+h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    letter-spacing: 2px;
+    margin-left: 50px;
+}
+h4{
+    color: antiquewhite;
+    font-size: 20px;   
+}
+.newletter form{
+    margin-left: 80px;
+    width: 500px;
+    max-width: 100%;
+    position: relative;
+}
+.newletter form input:first-child{
+    width: 100%;
+    display: inline-block;
+    padding: 15px 150px 15px 11px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+.newletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 10px 25px;
+    border-radius: 20px;
+    top:7px;
+    right:6px;
+    transform:transform0.4s ;
+}
+.newletter form input:last-child:hover{
+    transform: scale(1.07);
+}

@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+
+    background: url("img/banner.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.main{
+    width: 400px;
+    margin: 30px auto 50px auto;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+h2{
+    color: red;
+    text-align: center;
+    padding: 40px;
+    font-family: arial,sans-serif;
+}
+.register{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 15px;
+    border-radius: 5px;
+}
+form#register{
+    margin-left: 100px;
+    color: white;
+}
+label{
+    font-family:sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+#register input {
+    display: flex;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    outline: 0;
+    padding: 7px;
+    background-color: #ffee0013;
+    box-shadow: inset 1px 1px 5px rgba(17, 17, 17, 0.3)
+}
+.other{
+    margin-top: 30px;
+    margin-left: 100px;
+    color: white;
+    display: block;
+    justify-content: center;
+}
+
+input#submit{
+    color: rgb(255, 5, 5);
+    width: 150px;
+    height: auto;
+    padding:10px;
+    border-radius: 30px;
+    box-shadow: inset 1px 1px 4px rgba(0,0,0,0.3) ;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin-bottom: 50px;
+}
+input#submit:hover{
+    background-color: rgb(248, 0, 0);
+    color: white;
+
+}
